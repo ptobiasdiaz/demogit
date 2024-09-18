@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
 def new(**kwargs):
-    raise NotImpletedError()
+    raise NotImplementedError()
 
+
+def destructor(**kwargs):
+    raise NotImplementedError()
